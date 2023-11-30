@@ -43,6 +43,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     /*background-color: aquamarine;*/
     /*color: darkblue;*/
