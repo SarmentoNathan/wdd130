@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+/* Defining variables in the :root pseudo class */
+:root{
+    --primary-color: #033F63;
+    --secondary-color: #28666E;
+    --third-color: #7C9885;
+    --accent1-color: #FEDC97;
+    --accent2-color: white;
+
+    --heading-font: 'Georgia', sans-serif;
+    --paragraph-font: 'Times New Roman', serif;
+
+    --nav-background-color: #033F63;
+    --nav-link-color: #FEDC97;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #28666E;
+    
+    --h1-background-color: #FEDC9790; /* Including opacity */
+    --article-background-color: #28666E90 /* Including opacity */
+}
+
+/* Setting the page width to 1024 px using the wrap class */
+div.wrap {
+    width: 1024px;
+}
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+/* Paragraphs styling */
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+/* Retiring underline from social media links using the socialmedialinks class created in the html document */
+.socialmedialinks a:link {
+    text-decoration: none;
+}
+
+.hero {
+    padding-top: 20px;
+}
+
+.hero div{
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    display: block;
+    width: 1024px;
+    background-color: var(--h1-background-color);
+    top: 250px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero article{
+    position: absolute;
+    display: block;
+    width: 1024px;
+    background-color: var(--article-background-color);
+    top: 600px;
+}
+
+.hero p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero article img{
+    float: right;
+    height: 150px;
+    width: auto;
+}
+
+/* header design using grid*/
+header {
+    background-color: var(--article-background-color);
+    display: grid; /*Defining the grid*/
+    grid-template-columns: 1fr 4fr; /*Putting 2 columns on the grid*/
+    gap: 20px; /*Creating a gap between grid elements*/
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-links a {
+    display: block;
+}
+
+.header-links a:any-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-style:normal;
+    color: var(--primary-color);
+}
+
+header img {
+    width: 200px;
+    box-shadow: 0 0 20px gray;
+    margin: 20px;
+}
+
+.history h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.inventary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+}
+
+.inventary p{
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--third-color);
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inventary img{
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.adventure h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.adv-fig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+footer {
+    background-color: var(--h1-background-color);
+}
+
+footer p{
+    text-align: center;
+}
+
+.socialmedialinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
