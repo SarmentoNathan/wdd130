@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+.wrap {
+    width: 840px;
+}
+
+.fs1{
+    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fs1 legend{
+    font-size: large;
+    font-family:'Georgia';
+    color: navy;
+}
+
+.fs2{
+    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fs2 legend{
+    font-size: large;
+    font-family:'Georgia';
+    color: navy;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.button button{
+    color: white;
+    background-color: navy;
+}
