@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | Quiz</title>
+    <meta name="description" content="Quiz Activity">
+    <meta name="author" content="Nathan Sarmento">
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+
+  <body class="wrap">
+    <!-- Header -->
+    <header>
+        <h1>WDD130 Quiz Activity - Employment Site</h1>
+    </header>
+
+    <!-- Main element with the form elements-->
+    <main>
+        <!-- Form Declaration -->
+        <form>
+            <fieldset class="fs1"> <!-- First fieldset - Identification -->
+                <legend>Talk a little about yourself</legend>
+                
+                <!-- First form element -->
+                <label for="q1">Full Name</label>
+                <input type="text" id="q1" name="q1">
+
+                <!--Second form element-->
+                <label for="q2">Talk a little about your professional experience</label>
+                <textarea id="q2" name="q2" rows="5" cols="100" autocomplete="off"></textarea>
+            </fieldset>
+
+            <fieldset class="fs2"> <!-- Second Fieldset - Your situation-->
+                <legend>Let us help you!</legend>
+
+                <!-- Third form element -->
+                <label for="q3">What is your area of interest?</label>
+                <select id="q3" name="q3">
+                    <option value="">Sales</option>
+                    <option value="">Administrative</option>
+                    <option value="">General Services</option>
+                    <option value="">Management</option>
+                    <option value="">Logistic</option>
+                </select>
+
+                <!-- Fourth form element-->
+                <label for="q4">Your phone Number</label>
+                <input type="number" id="q4" name="q4">
+            </fieldset>
+
+            <!-- Submit button -->
+            <div class="button">
+              <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+      <p>
+          ©2023 👽 Nathan Sarmento 👽 Brazil
+      </p>
+    </footer>
+  </body>
+
+</html>
