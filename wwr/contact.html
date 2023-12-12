@@ -1,0 +1,136 @@
+<!--Initial configuration of the page-->
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact us page - How you can contact our company">
+    <meta name="author" content="Nathan Sarmento">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+
+  <!--Beginning of the body-->
+  <body>
+    <!-- Creating a div element with class to limit the page width-->
+    <div class="wrap">
+        <!--Header Element-->
+        <header>
+            <!--Logo of the company-->
+            <img src="images/logo.png" alt="Rafting Site Logo" width="200">
+            <!--Navigation sites-->
+            <nav class="header-links">
+                <a href="https://sarmentonathan.github.io/wdd130/wwr/site-plan-rafting.html" target="_blank">Home Page</a>
+                <a href="https://sarmentonathan.github.io/wdd130/wwr/about.html" target="_blank">About Us</a>
+                <a href="https://sarmentonathan.github.io/wdd130/wwr/trips.html" target="_blank">Trips</a>
+                <a href="https://sarmentonathan.github.io/wdd130/wwr/contact.html" target="_blank">Contact Us</a>
+            </nav>
+        </header>
+        <!--Main element-->
+        <main>
+            
+            <!-- First division: Company Info-->
+            <div class="companyinfo">
+                <div class="headquarters"><h1>Headquarters</h1></div>
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d651.0644894711171!2d-34.83808944911427!3d-7.156786797556084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc2f3770f2553%3A0xd76e125afa7e1d32!2sR.%20Cord%C3%A9lia%20Veloso%20Frade%2C%2075%20-%20Jardim%20Cidade%20Universit%C3%A1ria%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058052-430!5e0!3m2!1spt-BR!2sbr!4v1702337590296!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="city"><h2>João Pessoa, Paraíba, Brazil</h2></div>
+                <div class="phone-icon">
+                    <img src="images/whatsapp-icon.png" alt="Whatsapp" width="20">
+                </div>
+                <div class="email-icon">
+                    <img src="images/email-icon.png" alt="Email" width="20">
+                </div>
+                <div class="home-icon">
+                    <img src="images/house-icon.png" alt="House" width="20">
+                </div>
+                <div class="phone-number"><h3>+55 83 987434498</h3></div>
+                <div class="email-address"><h3>nsrafting@gmail.com</h3></div>
+                <div class="address"><h3>75 Cordelia Veloso Street</h3></div>
+                <div class="social-media-icon">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.png" alt="Facebook" width="40">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.png" alt="Instagram" width="40">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.png" alt="Twitter" width="40">
+                    </a>
+                </div>  
+            </div>
+
+            <!-- Second division: Photos-->
+            <div class="photos">
+                <figure>
+                    <figcaption>Confidence</figcaption>
+                    <img src="images/employee-1.jpeg" alt="emp1" height="150">
+                </figure>
+                <figure>
+                    <figcaption>Security</figcaption>
+                    <img src="images/employee-2.jpg" alt="emp2" height="150">
+                </figure>
+                <figure>
+                    <figcaption>Have Fun!</figcaption>
+                    <img src="images/employee-3.jpg" alt="emp3" height="150">
+                </figure>
+            </div>
+
+            <!-- Third division: Interaction with the user-->
+            <form>
+                <div class="interact">
+                    <div class="title"><h1>Send Us a Message</h1></div>
+                    <div class="subtitle"><h3>Send us a message and we'll respond within 24 hours</h3></div>
+                    <div class="your-name">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="your-email">
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="choice">
+                        <h3>Your contact purpose</h3>
+                    </div>
+                    <div class="radiob">
+                        <input type="radio" id="op1" name="purpose" value="Know about Values">
+                        <label for="op1">Know about Values</label><br>
+                        <input type="radio" id="op2" name="purpose" value="Schedule a Rafting">
+                        <label for="op2">Schedule a Rafting</label><br>
+                        <input type="radio" id="op3" name="purpose" value="Register a Complaint">
+                        <label for="op3">Register a Complaint</label><br>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="message">
+                        <label for="q2">Your Message</label><br>
+                        <textarea id="q2" name="q2" rows="5" cols="100" autocomplete="off"></textarea>
+                    </div>
+                    <div class="check-list">
+                        <input type="checkbox" id="marketing" name="marketing" value="Yes">
+                        <label for="marketing"> I accept to receive promotions and messages by email</label><br>
+                    </div>
+                    <div class="sub-button">
+                        <button type="submit">SEND</button>
+                    </div>
+                </div>
+            </form>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>©2023 👽 NS Rafting 👽 Nathan Sarmento</p>
+            <nav class="socialmedialinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram" width="50">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twitter" width="50">
+                </a>
+            </nav>
+        </footer>
+    </div>
+  </body>
+</html>
